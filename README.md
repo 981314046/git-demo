@@ -44,12 +44,19 @@ git branch
 
 git branch [name]
 创建一个新的项目版本分支
+git branch --delete [name]
+本地删除一个新的项目版本分支
 
 git checkout [name]
 切换到另一个分支
 
 git push -u origin [name]
 提交一个新的分支
+git push origin --delete [name]
+删除线上的一个分支
+
+git merge branch [name]
+同步一个分支的内容到另一个分支
 
 
 
