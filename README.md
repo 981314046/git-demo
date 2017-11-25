@@ -25,3 +25,32 @@ git commit -m '第一次提交到代码仓库(这里一般放版本号)'
 git log 更改日志
 
 git reset --head 哈希值前6位
+
+git remote -v 
+查看上传和下载的地址
+
+git remote add origin 加HTTP地址或者SSH地址 
+设置上传地址和下载地址
+
+git push origin master 
+将本地代码上传到线上
+
+git pull origin master
+从线上将代码下载下来
+
+
+git branch
+查看当前目录中的项目版本分支
+
+git branch [name]
+创建一个新的项目版本分支
+
+git checkout [name]
+切换到另一个分支
+
+git push -u origin [name]
+提交一个新的分支
+
+
+
+
